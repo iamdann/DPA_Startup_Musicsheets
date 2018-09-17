@@ -23,8 +23,8 @@
     <Position X="11" Y="6.5" Width="4" />
     <AssociationLine Name="LilypondViewModel" Type="DPA_Musicsheets.ViewModels.LilypondViewModel" FixedFromPoint="true">
       <Path>
-        <Point X="11" Y="7.186" />
-        <Point X="7.25" Y="7.186" />
+        <Point X="11" Y="7.154" />
+        <Point X="7.25" Y="7.154" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="MidiPlayerViewModel" Type="DPA_Musicsheets.ViewModels.MidiPlayerViewModel" FixedFromPoint="true" FixedToPoint="true">
@@ -35,15 +35,15 @@
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>EAAQACAAACAAABCACBBAAKACIICACEAAAgCABAAAAAA=</HashCode>
+      <HashCode>EAAQACAAACAAABCACBBAAKACIICACEAAAACABAAAAAA=</HashCode>
       <FileName>Managers\MusicLoader.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="LilypondViewModel" />
+      <Property Name="MidiSequence" />
       <Property Name="MainViewModel" />
+      <Property Name="LilypondViewModel" />
       <Property Name="MidiPlayerViewModel" />
       <Property Name="StaffsViewModel" />
-      <Property Name="MidiSequence" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="WPFStaffs" />
@@ -90,10 +90,10 @@
       <FileName>ViewModels\ViewModelLocator.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="LilypondViewModel" />
       <Property Name="MainViewModel" />
-      <Property Name="MidiPlayerViewModel" />
+      <Property Name="LilypondViewModel" />
       <Property Name="StaffsViewModel" />
+      <Property Name="MidiPlayerViewModel" />
     </ShowAsAssociation>
   </Class>
   <Class Name="PSAMControlLibrary.MusicalSymbol" Collapsed="true">

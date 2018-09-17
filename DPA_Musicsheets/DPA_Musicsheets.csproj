@@ -100,6 +100,10 @@
     </ApplicationDefinition>
     <Compile Include="Managers\MidiToLilyHelper.cs" />
     <Compile Include="Managers\MusicLoader.cs" />
+    <Compile Include="Models\FileReader\FileReaderFactory.cs" />
+    <Compile Include="Models\FileReader\IFileReader.cs" />
+    <Compile Include="Models\FileReader\LilypondFileReader.cs" />
+    <Compile Include="Models\FileReader\MidiFileReader.cs" />
     <Compile Include="Models\LilypondToken.cs" />
     <Compile Include="Models\LilypondTokenKind.cs" />
     <Compile Include="ViewModels\MidiPlayerViewModel.cs" />
