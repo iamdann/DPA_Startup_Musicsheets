@@ -42,8 +42,6 @@ namespace DPA_Musicsheets.Managers
 
         /// <summary>
         /// Opens a file.
-        /// TODO: Remove the switch cases and delegate.
-        /// TODO: Remove the knowledge of filetypes. What if we want to support MusicXML later?
         /// TODO: Remove the calling of the outer viewmodel layer. We want to be able reuse this in an ASP.NET Core application for example.
         /// </summary>
         /// <param name="fileName"></param>
