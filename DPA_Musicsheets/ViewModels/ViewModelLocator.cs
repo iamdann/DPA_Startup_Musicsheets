@@ -1,7 +1,7 @@
-﻿using DPA_Musicsheets.Managers;
+﻿using CommonServiceLocator;
+using DPA_Musicsheets.Managers;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
-using Microsoft.Practices.ServiceLocation;
 
 namespace DPA_Musicsheets.ViewModels
 {
